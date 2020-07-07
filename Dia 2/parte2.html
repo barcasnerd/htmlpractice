@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Enlaces y CSS</title>
+<!-- CSS para cambiar colores de los links
+  <style>
+  	a:link{
+    	color:green;
+        text-decoration:none;
+    }
+
+    a:visited{
+    	color: pink;
+    }
+
+    a:active{
+    	color:yellow;
+    }
+
+    a:hover{
+    	color:red;
+	}
+
+  </style>
+ -->
+
+ <!--CSS para convertir links en botones-->
+ <style>
+
+	a:link,a:visited{
+    	background-color:tomato;
+        color: #ffffff;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration:none;
+        display: inline-block;
+    }
+
+    a:active, a:hover{
+    	background-color:DodgerBlue;
+    }
+ </style>
+
+</head>
+<body  style="font-family:arial;">
+
+<h1>Enlaces y CSS</h1>
+<p>Con CSS podemos cambiar la forma en la que se ven los links</p>
+<p><a title="Visit a link" href="https://www.google.com/caramba">Link no visitado</a></p>
+<p><a title="Visit a link" href="https://www.google.com/hola">Link Visitado</a></p>
+<p><a title="Visit a link" href="https://www.google.com/none">Link activo</a></p>
+<hr>
+
+<h2>Botones mediante CSS</h2>
+<p>Podemos hacer que los links se vean como botones usando CSS</p>
+<a href="https://www.w3schools.org/">W3Schools</a>
+<hr>
+
+<h2>Links Marcadores</h2>
+<p>Podemos crear marcadores que nos lleven a una determinada parte de nuestro documento. Se usan especialmente para cuando las páginas son muy extensas:</p>
+<a href="#next">Ir a abajo</a>
+<pre>
+dkasbdkjbsjbkdfbsakjfasfksdnfkjdbfkjbfkjdsbkjfbdkjfbfkjdbkfbsdkjsdbjfkbdskfbdsfds
+fdsf dsjfbkdsfbjdsfjds fdsjkf dskf sdmnf dskj fkds fds{fds fdsnf dsjf sdj fds
+fdf
+dsfds fds hf sdf djfkdsfndsjfbmdsbfjdsbf ds
+fsdfkdsnfds fnds fdsdkasbdkjbsjbkdfbsakjfasfksdnfkjdbfkjbfkjdsbkjfbdkjfbfkjdbkfbsdkjsdbjfkbdskfbdsfds
+fdsf dsjfbkdsfbjdsfjds fdsjkf dskf sdmnf dskj fkds fds{fds fdsnf dsjf sdj fds
+fdf
+dsfds fds hf sdf djfkdsfndsjfbmdsbfjdsbf ds
+fsdfkdsnfds fnds fdsdkasbdkjbsjbkdfbsakjfasfksdnfkjdbfkjbfkjdsbkjfbdkjfbfkjdbkfbsdkjsdbjfkbdskfbdsfds
+fdsf dsjfbkdsfbjdsfjds fdsjkf dskf sdmnf dskj fkds fds{fds fdsnf dsjf sdj fds
+fdf
+dsfds fds hf sdf djfkdsfndsjfbmdsbfjdsbf ds
+fsdfkdsnfds fnds fdsdkasbdkjbsjbkdfbsakjfasfksdnfkjdbfkjbfkjdsbkjfbdkjfbfkjdbkfbsdkjsdbjfkbdskfbdsfds
+fdsf dsjfbkdsfbjdsfjds fdsjkf dskf sdmnf dskj fkds fds{fds fdsnf dsjf sdj fds
+fdf
+dsfds fds hf sdf djfkdsfndsjfbmdsbfjdsbf ds
+fsdfkdsnfds fnds fdsdkasbdkjbsjbkdfbsakjfasfksdnfkjdbfkjbfkjdsbkjfbdkjfbfkjdbkfbsdkjsdbjfkbdskfbdsfds
+fdsf dsjfbkdsfbjdsfjds fdsjkf dskf sdmnf dskj fkds fds{fds fdsnf dsjf sdj fds
+fdf
+dsfds fds hf sdf djfkdsfndsjfbmdsbfjdsbf ds
+fsdfkdsnfds fnds fdsdkasbdkjbsjbkdfbsakjfasfksdnfkjdbfkjbfkjdsbkjfbdkjfbfkjdbkfbsdkjsdbjfkbdskfbdsfds
+fdsf dsjfbkdsfbjdsfjds fdsjkf dskf sdmnf dskj fkds fds{fds fdsnf dsjf sdj fds
+fdf
+dsfds fds hf sdf djfkdsfndsjfbmdsbfjdsbf ds
+fsdfkdsnfds fnds fdsdkasbdkjbsjbkdfbsakjfasfksdnfkjdbfkjbfkjdsbkjfbdkjfbfkjdbkfbsdkjsdbjfkbdskfbdsfds
+fdsf dsjfbkdsfbjdsfjds fdsjkf dskf sdmnf dskj fkds fds{fds fdsnf dsjf sdj fds
+fdf
+dsfds fds hf sdf djfkdsfndsjfbmdsbfjdsbf ds
+fsdfkdsnfds fnds fdsdkasbdkjbsjbkdfbsakjfasfksdnfkjdbfkjbfkjdsbkjfbdkjfbfkjdbkfbsdkjsdbjfkbdskfbdsfds
+fdsf dsjfbkdsfbjdsfjds fdsjkf dskf sdmnf dskj fkds fds{fds fdsnf dsjf sdj fds
+fdf
+dsfds fds hf sdf djfkdsfndsjfbmdsbfjdsbf ds
+fsdfkdsnfds fnds fdsdkasbdkjbsjbkdfbsakjfasfksdnfkjdbfkjbfkjdsbkjfbdkjfbfkjdbkfbsdkjsdbjfkbdskfbdsfds
+fdsf dsjfbkdsfbjdsfjds fdsjkf dskf sdmnf dskj fkds fds{fds fdsnf dsjf sdj fds
+fdf
+dsfds fds hf sdf djfkdsfndsjfbmdsbfjdsbf ds
+fsdfkdsnfds fnds fds
+</pre>
+<p id="next">Llegamos a abajo</p>
+<p>También se pueden hacer enlaces con marcadores a otras páginas de nuestro mismo proyecto</p>
+<hr>
+
+
+</body>
+</html>

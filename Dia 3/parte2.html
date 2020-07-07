@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<title>Map</title>
+</head>
+
+
+<body style="font-family:Verdana;">
+<h1>Etiqueta MAP</h1>
+<p>¿Para qué se usa la etiqueta MAP</p>
+<p>Hacer click en la taza, PC o café</p>
+<img src="https://www.w3schools.com/html/workplace.jpg" alt="Workplace" usemap="#workmap">
+<map name="workmap">
+<area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+<area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+<hr>
+
+<h2>Pasos para crear un mapa de imagen</h2>
+<p>Para crear una relación entre la imagen y un mapa de imagen, debemos agregar el atrubuto:______ a la etiqueta:_______ y el valor del atributo debe comensar con el simbolo:___</p>
+<br>
+<p>Creamos un elemento map en cualquier parte del html y lo referenciamos a través del atributo:________ para poder relacionarlo con la imagen.<strong> Debe tener el mismo valor tanto:_______ en la etiqueta imagen como:________ en la etiqueta map</strong></p>
+<br>
+<p>Dentro de el elemento map, agregamos las áreas de interés en las que se les pede hacer click, a través del elemento:______. Para definir la forma del área usamos el tributo:______ que puede contener los siguentes valores: 1-_____ para crear un rectangulo. 2-________ define una region circular. 3-______ define una region poligonal y 4-_________define toda el área</p>
+<br>
+<h3>Coordenadas para las formas de las áreas:</h3>
+<p>Usamos el atributo:_____ dentro de la etiqueta:_______ para definr coordenadas</p>
+<small><strong>La coordenada 0,0 en la web empieza desde la esquina superior izquierda</strong></small>
+<p><b>Rectangulo:</b> usamos las coordenadas que vienen de 2 pares __,__,__,__, el primero par corresponde a la esquina:____________ y el segundo par corresponde a la esquina:___________ y con eso podemos formar un rectangulo. Ej:"33,44,270,90"</p>
+<p><b>Circulo:</b> Se compone de tres valores ___,____,____ los dos primeros indican el:_________ del circulo y el final corresponde al:________. Ej:"33,44,22"</p>
+<p><b>Cualquier forma (Polígono):</b>No tiene límite de puntos para las coordenadas, se puede hacer cualquier figura con las coordenadas que le demos</p>
+<img src="https://www.w3schools.com/html/frenchfood4.jpg" alt="Explanation with a croissant" widht="200" height="200">
+<img src="https://www.w3schools.com/html/frenchfood3.jpg" alt="Explanation with a croissant" widht="200" height="200">
+<hr>
+<h2>Mapa de imagen y Javascript</h2>
+<p>Podemos usar el atributo:______ con el valor del nombre de una funcion dentro de la etiqueta de área para activar funciones de javascript. Hacer click en el croissant</p>
+<img src="https://www.w3schools.com/html/frenchfood.jpg" alt="Croissant" usemap="#areacroissant">
+<map name="areacroissant">
+<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" alt="Croissant" onclick="myFunction()">
+</map>
+
+<script>
+function myFunction(){
+alert('You clicked on croissant');
+}
+</script>
+
+</body>
+</html>
