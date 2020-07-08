@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="UTF-8">
+<title>HTML Picture</title>
+</head>
+
+<body style="font-family:Verdana;">
+
+</body>
+<h1>Elemento picture</h1>
+<p>¿Para qué sirve la etiqueta picture? ¿Qué atributos son obligatorios?</p>
+<small>Ajusta el tamaño de la pantalla y analiza qué ocurre</small>
+<picture>
+  <source media="(min-width: 650px)" srcset="https://www.w3schools.com/html/img_food.jpg">
+  <source media="(min-width: 465px)" srcset="https://www.w3schools.com/html/img_car.jpg">
+  <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Girl">
+</picture>
+<hr>
+
+<p><b>Nota: </b> Al utilizar la etiqueta:________ como último hijo de la etiqueta picture, el navegador la escogerá cuando picture no sea soportado, o cuando las etiquetas:_________ no coincidan</p>
+<hr>
+
+<h2>¿Cuándo usar picture?</h2>
+<p>Ancho de banda<p>
+<p>Soporte de formato<p>
+
+<picture>
+<source srcset="https://w3schools.com/html/img_avatar.png">
+<source srcset="https://w3schools.com/html/img_girl.jpg">
+<img src="https://w3schools.com/html/img_beatles.gif" alt="Beatles"style="width:auto;" >
+</picture>
+<p><em>El navegador reconocerá el primer elemento disponible y coincidente, e ignorará los demás</em><p>
+
+
+</html>
