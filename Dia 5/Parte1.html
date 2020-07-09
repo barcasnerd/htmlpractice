@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Tablas</title>
+
+<style>
+	table,th,td{
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+    
+    td,th{
+    	padding:5px;
+    }
+    
+    th{
+    	text-align:left;
+    }
+    
+    table{
+    	border-spacing: 50px;
+        width:100%;
+    }
+    
+    #t01{
+    	background-color:#f1f1c1;
+    }
+    
+</style>
+
+</head>
+
+<body style="font-family:Verdana;">
+<h1>Tablas HTML</h1>
+<p>¿Cpomo definimos una tabla en HTML?</p>
+<table style="width:100%;">
+	<tr>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Country</th>
+	</tr>
+	<tr>
+		<td>Jhon Smith</td>
+		<td>21</td>
+		<td>USA</td>
+	</tr>
+	<tr>
+		<td>Jair</td>
+		<td>19</td>
+		<td>Colombia</td>
+	</tr>
+</table>
+<hr>
+
+<h2>Elementos de una tabla</h2>
+<b><p>-Tabla</p>
+<p>-Fila</p>
+<p>-Encabezado de fila</p>
+<p>-Datos</p></b>
+<p><strong>Nota: </strong>las etiquetas de datos:_____ pueden contener todo tipo de elemento HTML, imágenes, datos, listas, otras tablas</p>
+<hr>
+
+<h2>Bordes de una tabla</h2>
+<p>Sí queremos agregar  bordes a una tabla debemos hacerlo con CSS, utilizando la propiedad:_________</p>
+<p>Sí queremos que los bordes se unan unos con otros, debemos darle al estilo de la tabla (y sus etiquetas al interior) la propiedad CSS:__________ con el valor:__________. Aspi tendremos bordes mejor estilizados</p>
+<hr>
+
+<h2>Espaciado o relleno de celda</h2>
+<p>Para agregar un espaciado entre los elementos de la tabla y sus bordes, usamos la propiedad de CSS:________ y un valor en pixeles del tamaño de dicho espaciado</p>
+<hr>
+
+<h2>Alinear encabezados</h2>
+<p>Por defecto, los encabezados están alineados al centro y en negrita, sí queremos cambiar esto, usamos la propiedad de CSS:_______________ con el valor de preferencia, puede ser:__________, ____________ o __________</p>
+<hr>
+
+<h2>Espaciado de tabla</h2>
+<p>Para agrandar el espacio entre el borde de la tabla y sus elementos, usamos para la etiqueta:__________ la propiedad de CSS:____________ con el valor en píxeles que le demos, siempre y cuando:_______________ no esté activo</p>
+<hr>
+
+<h2>Rango de celdas por COLUMNAS</h2>
+<p>Para indicar cuántas celdas soporta un determinado campo de la tabla, utilizamos el atributo:___________ dentro de la etiqueta:________ con el valor del rango máximo de celdas por campo<p>
+<table style="width:100%;">
+	<tr>
+		<th>Name</th>
+		<th colspan="3">Cellphone</th>
+		<th>Country</th>
+	</tr>
+	<tr>
+		<td>Bill Gates</td>
+		<td>55 664 777</td>
+		<td>44 552 423</td>
+		<td>55 664 777</td>
+		<td>USA</td>
+	</tr>
+</table>
+<hr>
+
+<h2>Rango de celdas por FILAS</h2>
+<p>Sí queremos indicar que un campo contiene un determinado múmero de filas, debemos incluir el atributo:_____________ dentro de la etiqueta:____________ para indicar (con el valor) el numero de filas que tendrá esa celda o cmapo</p>
+<table>
+	<tr>
+		<th>Name: </th>
+		<td>Bill Gates</td>
+	</tr>
+	<tr>
+		<th rowspan="2">Celphone: </th>
+		<td>342 244 233</td>
+	</tr>
+	<tr>
+		<td>444 2424 2990</td>
+	</tr>
+    <tr>
+    	<th rowspan="3">Jobs: </th>
+        <td>CEO at Microsoft</td>
+    </tr>
+    <tr>
+    	<td>Founder of Microsoft</td>
+    </tr>
+     <tr>
+    	<td>Computer sciences manager</td>
+    </tr>
+</table>
+<hr>
+
+<h2>Título de una tabla</h2>
+<p>Para agregar un título en una tabla, agregamos la etiqueta:_____________ inmediatamente después de la etiqueta de apertura de la tabla</p>
+<table>
+	<caption>Monthly savings</caption>
+	<tr>
+		<th>Month</th>
+		<th>Savings</th>
+	</tr>
+	<tr>
+		<td>January</td>
+		<td>$45</td>
+	</tr>
+	<tr>
+		<td>February</td>
+		<td>$100</td>
+	</tr>
+</table>
+<hr>
+<h2>Tabla con estilo especial</h2>
+<p>Para darle un estílo único a una tabla, debemos incluir el atributo:_________ en la etiqueta:_________ con el valor de un indicador que queramos darle, para luego seleccionarla a través del símbolo:__ en CSS</p>
+<table id="t01">
+	<tr>
+		<th>Fisrtame</th>
+		<th>Lastname</th>
+		<th>Age</th>
+	</tr>
+	<tr>
+		<td>Eve</td>
+		<td>Jackson</td>
+		<td>33</td>
+	</tr>
+    <tr>
+		<td>Ana</td>
+		<td>Routher</td>
+		<td>23</td>
+	</tr>
+</table>
+
+</body>
+</html>
