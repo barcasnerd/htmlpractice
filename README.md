@@ -1,7 +1,26 @@
-# Práctica de HTML
-***
-En este repo encontrarás diferentes carpetas que comprenden la práctica realizada para aprender HTML usando como referencia [W3Schools](https://www.w3schools.com).
 
-Cada carpeta compone un día de práctica, divididos en sesiones por cada día en el orden que han sido aprendidos los conceptos.
-***
-Para hacer un repaso de manera continua, clona el repositorio y luego abre el index.html, al final de cada documento habrá un botón que te llevará a la siguiente sesión de práctica.
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png" width="40" height="35" style="float:left;margin-right:20px;">
+
+# HTML5 LA GUIA DEFINITIVA
+###### Por Jair Barcasnegras
+
+> En esta guía encontrarás la ruta ideal para aprender las bases de uno de los tres pilares fundamentales para el desarrollo web moderno. 
+
+>Está basada en el contenido de la página [W3Schools](https://www.w3schools.com), una web para aprender a programar.
+
+
+## Introducción
+
+Desde la estructura, hasta sus componentes y convenciones, HTML (Hypertext Markup Language), y específicamente HTML5, se ha convertido en el estándar para la creación de sitios web de cualquier tipo.
+
+HTML es el lenguaje encargado de estructurar y segmentar el contenido de un sitio o página web, por lo que representa la base para desarrollar la web moderna.
+
+## ¿Qué es HTML?
+
+Propiamente, las siglas **HTML** representan *Hypertext Markup Language* (lenguaje de marcado de hipertexto). 
+
+Este lenguaje decribe la estructura de una página web, la cual consiste en una serie de elementos que se comunican con el navegador para ser representados de manera visual a las personas que visitan el sitio.
+
+HTML se compone de marcas o **etiquetas** que indican el tipo de elemento que se visualiza.
+
+
