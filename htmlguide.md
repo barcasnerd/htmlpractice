@@ -9,13 +9,13 @@
 
 
 ## Introducción
-***
+
 Desde la estructura, hasta sus componentes y convenciones, HTML (Hypertext Markup Language), y específicamente HTML5, se ha convertifo en el estándar para la creación de sitios web de cualquier tipo.
 
 Html es el lenguaje encargado de dar la estructura y segmentar el contenido de un sitio o página web, por lo que representa la base para desarrollar la web moderna.
 
 ## ¿Qué es HTML?
-***
+
 Propiamente, las siglas **HTML** representan *Hypertext Markup Language* (lenguaje de marcade de hipertexto). 
 
 Este lenguaje decribe la estructura de una página web, la cual consiste en una serie de elementos que se comunican con el navegador para ser mostrados de manera visual.
