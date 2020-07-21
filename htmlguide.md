@@ -2,6 +2,7 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png" width="40" height="35" style="float:left;margin-right:20px;">
 
 # HTML5 LA GUIA DEFINITIVA
+###### Por Jair Barcasnegras
 
 > En esta guía encontrarás la ruta ideal para aprender las bases de uno de los tres pilares fundamentales para el desarrollo web moderno. 
 
@@ -22,4 +23,4 @@ Este lenguaje decribe la estructura de una página web, la cual consiste en una 
 
 HTML se compone de marcas o **etiquetas** que indican el tipo de elemento que se visualiza.
 
-###### Por Jair Barcasnegras
+
