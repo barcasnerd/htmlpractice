@@ -8,6 +8,8 @@
 
 >Está basada en el contenido de la página [W3Schools](https://www.w3schools.com), una web para aprender a programar.
 
+>El repositorio contiene archivos que ayudan a relacionar lo que el navegador interpreta con el código que se escribe, se podría imaginar cómo realizar cada uno de los elementos que vemos a través de código, lo cual fortalecerá la práctica.
+
 
 ## Introducción
 
