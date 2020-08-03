@@ -1,0 +1,44 @@
+DIA 1
+____________________________________________________________________
+HTML Primera parte
+https://www.w3schools.com/code/tryit.asp?filename=GFX5WD5H2P5H
+HTML Segunda parte
+https://www.w3schools.com/code/tryit.asp?filename=GFX7LHNBHMUC
+HTML Parte 3
+https://www.w3schools.com/code/tryit.asp?filename=GFX9NAV6P54M
+HTML Parte 4
+https://www.w3schools.com/code/tryit.asp?filename=GFXA5QDSNJJX
+Ejercicios hasta Css
+Teoría hasta  ENLACES HMTL: URL RELATIVAS Y ABSOLUTAS
+
+DIA 2
+____________________________________________________________________
+HTML Primera parte
+https://www.w3schools.com/code/tryit.asp?filename=GFYFEXWFQ3KD
+HTML Segunda parte
+https://www.w3schools.com/code/tryit.asp?filename=GFYGIF2LLWD8
+Ejercicios hasta HTML Links
+Teoría hasta ENLACES HTML: Capitulo completo
+
+DIA 3
+___________________________________________________________________
+HTML Primera parte
+https://www.w3schools.com/code/tryit.asp?filename=GGHXKYIPHTQ6
+HTML Parte 2
+https://www.w3schools.com/code/tryit.asp?filename=GGI10NHZMRDS
+HTML Parte 3
+https://www.w3schools.com/code/tryit.asp?filename=GGI398HTTRN3
+Ejercicios hasta HTML images
+Teoría hatsa Imagenes HTML: Imagenes de fondo
+
+DIA 4
+___________________________________________________________________
+HTML Primera parte
+https://www.w3schools.com/code/tryit.asp?filename=GGK6HO0YFACN
+Ejercicios hasta HTML images
+Teoría hatsa Imagenes HTML: Capitulo completo
+
+DIA 5
+___________________________________________________________________
+HTML Primera parte
+https://www.w3schools.com/code/tryit.asp?filename=GGLHTQEMWHXP
